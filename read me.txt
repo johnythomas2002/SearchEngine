@@ -1,0 +1,11 @@
+//install opencv2, matlab libraries also install imutils visit https://pypi.org/project/imutils/
+
+//in cmd run below two command:
+
+python index.py --dataset dataset --index index.csv
+
+python search.py --index index.csv --query queries/100200.jpg --result-path dataset
+
+
+
+//or python search.py --index index.csv --query queries/'picture_name'.jpg --result-path dataset
